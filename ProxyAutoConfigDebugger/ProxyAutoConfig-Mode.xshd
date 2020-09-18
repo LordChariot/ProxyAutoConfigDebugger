@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for Proxy Auto-Config by lordchariot@lordchariot.com -->
+<!-- based on JavaScript 2.0 syntax definition by Svante Lidman -->
+
+<SyntaxDefinition name ="ProxyAutoConfig" extensions = ".js">
+
+	<Environment >
+		<EOLMarkers bold ="false" italic ="false" color="Orange"/>
+		<SpaceMarkers bold ="false" italic ="false" color="Orange"/>
+		<TabMarkers bold ="false" italic ="false" color="Orange"/>
+	</Environment>
+
+
+	<Properties>
+		<Property name="LineComment" value="//"/>
+	</Properties>
+
+	<Digits name ="Digits" bold ="false" italic ="false" color ="DarkBlue"/>
+
+	<RuleSets>
+		<RuleSet ignorecase = "false">
+			<Delimiters>=!&gt;&lt;+-/*%&amp;|^~.}{,;][?:()</Delimiters>
+
+			<Span name ="LineComment" bold ="false" italic ="false" color ="Green" stopateol ="true">
+				<Begin>//</Begin>
+			</Span>
+
+			<Span name ="BlockComment" bold ="false" italic ="false" color ="Green" stopateol ="false">
+				<Begin>/*</Begin>
+				<End>*/</End>
+			</Span>
+
+			<Span name ="String" bold ="false" italic ="false" color ="Maroon" stopateol ="false" escapecharacter="\">
+				<Begin>&quot;</Begin>
+				<End>&quot;</End>
+			</Span>
+
+			<Span name = "Character" bold = "false" italic = "false" color = "Maroon" stopateol = "true" escapecharacter="\">
+				<Begin>&apos;</Begin>
+				<End>&apos;</End>
+			</Span>
+
+			<KeyWords name ="JavaScriptKeyWords" bold="false" italic = "false" color = "Blue">
+				<Key word =  "break" />
+				<Key word =  "continue" />
+				<Key word =  "delete" />
+				<Key word =  "else" />
+				<Key word =  "for" />
+				<Key word =  "function" />
+				<Key word =  "if" />
+				<Key word =  "in" />
+				<Key word =  "new" />
+				<Key word =  "return" />
+				<Key word =  "this" />
+				<Key word =  "typeof" />
+				<Key word =  "var" />
+				<Key word =  "void" />
+				<Key word =  "while" />
+				<Key word =  "with" />
+				<!--ECMAScript keywords-->
+				<!-- Reserved for future use 
+					(some are already used in some Javascript Engines) 
+				-->
+				<Key word =  "abstract" />
+				<Key word =  "boolean" />
+				<Key word =  "byte" />
+				<Key word =  "case" />
+				<Key word =  "catch" />
+				<Key word =  "char" />
+				<Key word =  "class" />
+				<Key word =  "const" />
+				<Key word =  "debugger" />
+				<Key word =  "default" />
+				<Key word =  "do" />
+				<Key word =  "double" />
+				<Key word =  "enum" />
+				<Key word =  "export" />
+				<Key word =  "extends" />
+				<Key word =  "final" />
+				<Key word =  "finally" />
+				<Key word =  "float" />
+				<Key word =  "goto" />
+				<Key word =  "implements" />
+				<Key word =  "import" />
+				<Key word =  "instanceof" />
+				<Key word =  "int" />
+				<Key word =  "interface" />
+				<Key word =  "long" />
+				<Key word =  "native" />
+				<Key word =  "package" />
+				<Key word =  "private" />
+				<Key word =  "protected" />
+				<Key word =  "public" />
+				<Key word =  "short" />
+				<Key word =  "static" />
+				<Key word =  "super" />
+				<Key word =  "switch" />
+				<Key word =  "synchronized" />
+				<Key word =  "throw" />
+				<Key word =  "throws" />
+				<Key word =  "transient" />
+				<Key word =  "try" />
+				<Key word =  "volatile" />
+			</KeyWords>
+
+			<KeyWords name ="JavaScriptIntrinsics" bold="false" italic = "false" color = "Blue">
+				<Key word =  "Array" />
+				<Key word =  "Boolean" />
+				<Key word =  "Date" />
+				<Key word =  "Function" />
+				<Key word =  "Global" />
+				<Key word =  "Math" />
+				<Key word =  "Number" />
+				<Key word =  "Object" />
+				<Key word =  "RegExp" />
+				<Key word =  "String" />
+			</KeyWords>
+
+			<KeyWords name ="JavaScriptLiterals" bold="false" italic = "false" color = "Blue">
+				<Key word =  "false" />
+				<Key word =  "null" />
+				<Key word =  "true" />
+				<Key word =  "NaN" />
+				<Key word =  "Infinity" />
+			</KeyWords>
+
+			<KeyWords name ="ProxyAutoConfigLiterals" bold="true" italic = "false" color = "DarkGreen">
+				<Key word =  "FindProxyForURL" />
+				<Key word =  "FindProxyForURLEx" />
+				<Key word =  "alert" />
+				<Key word =  "dateRange" />
+				<Key word =  "dnsDomainIs" />
+				<Key word =  "dnsDomainLevels" />
+				<Key word =  "dnsResolve" />
+				<Key word =  "dnsResolveEx" />
+				<Key word =  "getClientVersion" />
+				<Key word =  "isInNet" />
+				<Key word =  "isInNetEx" />
+				<Key word =  "isPlainHostName" />
+				<Key word =  "isResolvable" />
+				<Key word =  "isResolvableEx" />
+				<Key word =  "localHostOrDomainIs" />
+				<Key word =  "myIpAddress" />
+				<Key word =  "myIpAddressEx" />
+				<Key word =  "shExpMatch" />
+				<Key word =  "sortIpAddressList" />
+				<Key word =  "timeRange" />
+				<Key word =  "weekdayRange" />
+			</KeyWords>
+
+			<KeyWords name ="customLiterals" bold="true" italic = "true" color = "Red">
+				<Key word =  "__FindProxyForURL" />
+				<Key word =  "__logMessage" />
+				<Key word =  "__clearMessages" />
+			</KeyWords>
+
+			<KeyWords name ="JavaScriptGlobalFunctions" bold="false" italic = "false" color = "Blue">
+				<Key word =  "eval" />
+				<Key word =  "parseInt" />
+				<Key word =  "parseFloat" />
+				<Key word =  "escape" />
+				<Key word =  "unescape" />
+				<Key word =  "isNaN" />
+				<Key word =  "isFinite" />
+			</KeyWords>
+		</RuleSet>
+	</RuleSets>
+
+</SyntaxDefinition>
+

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: Arial,Helvetica,sans-serif;
+            font-size: .8em;
+        }
+        pre {
+            font-family: Consolas, "Lucida Console", Monaco, monospace;
+        }
+    </style>
+
+    <script type="text/javascript">
+        //PAC Functions
+        ${PAC_Functions}
+        //END PAC Functions
+    </script>
+    <script type="text/javascript">
+        // PAC Script
+        ${PAC_JavaScript}
+        // END PAC Script
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend style="font-size: 11px;">Return:</legend>
+        <div id="result"></div>
+    </fieldset>
+    <fieldset>
+        <legend style="font-size: 11px;">Messages:</legend>
+        <pre id="messages"></pre>
+    </fieldset>
+    <br />
+<pre id="messages"></pre>
+</body>
+</html>

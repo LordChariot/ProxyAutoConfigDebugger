@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyAutoConfigDebugger", "ProxyAutoConfigDebugger\ProxyAutoConfigDebugger.csproj", "{0B1C0058-CE70-4824-996A-543660081EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0A2A33F-866B-42B6-BD98-2EF5CC102535}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENSE.txt = LICENSE.txt
+		exe\ProxyAutoConfigDebugger-1.0.1.0.zip = exe\ProxyAutoConfigDebugger-1.0.1.0.zip
+		exe\ProxyAutoConfigDebugger_Setup-1.0.1.0.msi = exe\ProxyAutoConfigDebugger_Setup-1.0.1.0.msi
+		README.md = README.md
+		docs\ScreenShot_1.png = docs\ScreenShot_1.png
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProxyAutoConfigDebugger_Setup", "ProxyAutoConfigDebugger_Setup\ProxyAutoConfigDebugger_Setup.vdproj", "{8942AA4B-6FE9-4364-8B12-7FC145906160}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Sign|Any CPU = Sign|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B1C0058-CE70-4824-996A-543660081EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1C0058-CE70-4824-996A-543660081EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1C0058-CE70-4824-996A-543660081EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1C0058-CE70-4824-996A-543660081EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1C0058-CE70-4824-996A-543660081EB6}.Sign|Any CPU.ActiveCfg = Sign|Any CPU
+		{0B1C0058-CE70-4824-996A-543660081EB6}.Sign|Any CPU.Build.0 = Sign|Any CPU
+		{8942AA4B-6FE9-4364-8B12-7FC145906160}.Debug|Any CPU.ActiveCfg = Debug
+		{8942AA4B-6FE9-4364-8B12-7FC145906160}.Release|Any CPU.ActiveCfg = Release
+		{8942AA4B-6FE9-4364-8B12-7FC145906160}.Sign|Any CPU.ActiveCfg = Sign
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DDF96BC-B829-4F5A-840C-9CC95A447B2E}
+	EndGlobalSection
+EndGlobal

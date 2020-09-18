@@ -1,0 +1,30 @@
+Proxy Auto-Config (PAC) Debugger
+
+Editor/Debugger for testing Proxy Auto-Config files.
+
+Version History:
+1.0.1.0: Fixed bug with compiling JavaScript in
+         the editor.
+1.0.0.0: Initial version for release.
+
+Things to know:
+- Always put 'var' in front of variable
+  definition.
+
+- You can use the internal command, 
+  __logMessages() to display debugging
+  statements. Of course, 
+  these are not valid in actual PAC files
+  and should be removed prior to use.
+
+  Example:
+    var s='This is a string';
+    __logMessage('s='+s+'\n');
+  Displays in output:
+    s=This is a string
+
+- If you use FindProxyForURLEx(url, host), you
+  must change the name of the entry function to
+  the same. 
+
+For assistance with this program, contact lordchariot@lordchariot.com.
