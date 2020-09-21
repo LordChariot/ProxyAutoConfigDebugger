@@ -26,8 +26,8 @@ Proxy Auto-Config Debugger is an interactive editor/debugger for Proxy Auto-Conf
 Example:
 
 ```js
-    var s='This is a string';
-    __logMessage('s='+s+'\n');
+var s='This is a string';
+__logMessage('s='+s+'\n');
 ```
   
 Displays in output:
