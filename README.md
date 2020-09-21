@@ -21,18 +21,20 @@ Proxy Auto-Config Debugger is an interactive editor/debugger for Proxy Auto-Conf
 
 - Always put 'var' in front of variable definitions in the PAC file.
 
-- You can use the internal command, __logMessages() to display debugging statements. Of course, these are not valid in actual PAC files and should be removed prior to use.
+- You can use the internal command, **__logMessages()** to display debugging statements. Of course, these are not valid in actual PAC files and should be removed prior to use.
 
 Example:
 
+```js
     var s='This is a string';
     __logMessage('s='+s+'\n');
+```
   
 Displays in output:
 
     s=This is a string
 
-- If you use FindProxyForURLEx(url, host), you  must change the name of the entry function to the same. 
+- If you use FindProxyForURL**Ex**(url, host), you  must change the name of the entry function to the same. 
 
 - Auto IP tries to determine your actual source IP address when testing. When un-checked, you can specify an explicit source IPv4.
 
