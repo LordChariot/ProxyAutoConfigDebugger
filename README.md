@@ -13,6 +13,7 @@ Proxy Auto-Config Debugger is an interactive editor/debugger for Proxy Auto-Conf
 
 
 ## Version History
+- 1.0.2.0: Added start menu program group in Setup. No change to code.
 - 1.0.1.0: Fixed bug with compiling JavaScript in the editor.
 - 1.0.0.0: Initial version for release.
 

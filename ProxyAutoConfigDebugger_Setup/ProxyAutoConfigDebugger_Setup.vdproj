@@ -267,12 +267,23 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_76554B8A3D7F4029A3C92FBF85A67864"
             {
             "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_0ECFB91FFBD64D0384B271C356FF6219"
+                    {
+                    "Name" = "8:£ordÇhariot"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_3C8BE7E4F16943278F5A261E6809F04B"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -291,15 +302,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Proxy Auto-Config Debugger"
-        "ProductCode" = "8:{443AFC13-9DDF-4AD2-9265-AAC79A8F7663}"
-        "PackageCode" = "8:{F993DADA-8334-4EA7-A5EA-1999CA9EED33}"
+        "ProductCode" = "8:{BB4F2B1F-9655-4B6A-95F5-A4D0AD6BACAF}"
+        "PackageCode" = "8:{E6938E3B-9562-414E-A7F4-440CBABB8ECD}"
         "UpgradeCode" = "8:{D597D4BC-7F59-41C4-A39C-4F1BF7BD2C25}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:£ordÇhariot"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -412,6 +423,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_443396D4CA8F4B3E81D6C9E4E9E271DB"
+            {
+            "Name" = "8:Proxy Auto-Config Debugger"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:32512"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_665A22C601D54E108A181258C3596109"
+            "Folder" = "8:_0ECFB91FFBD64D0384B271C356FF6219"
+            "WorkingFolder" = "8:_1784BF2C0FA14A92AD5297A92FAAC032"
+            "Icon" = "8:_665A22C601D54E108A181258C3596109"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DEDBFEB5FA9C4EAAA2055FB8712AAE0B"
             {
             "Name" = "8:Proxy Auto-Config Debugger"
