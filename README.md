@@ -1,4 +1,4 @@
-# Proxy Auto-Config Debugger
+# Proxy Auto-Config (PAC) Debugger
 Editor/Debugger for testing Proxy Auto-Config files.
 
  ![Screenshot 1](/docs/ScreenShot_1.png)
